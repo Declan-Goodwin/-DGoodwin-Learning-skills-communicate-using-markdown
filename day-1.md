@@ -5,6 +5,14 @@
 - [ ] Convert my first blog post into an actual webpage.
 ## Review 
 
+Convert an image or video from dark mode to light mode using [ffmpeg](https://www.ffmpeg.org)
+```bash
+ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output.mp4
+```
+
+
+
+
 ## Unordered Lists //(Heading 2 Format)
 - Format A: List Item 1
 - Format A: List Item 2
@@ -20,3 +28,12 @@
 1. Step 1
 2. Step 2
 3. Step 3
+
+## We Love Code
+```bash
+git clone https://github.com/skills/communicate-using-markdown
+```
+
+```js
+var myVar = "Hello, world!";
+```
